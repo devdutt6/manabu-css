@@ -1,0 +1,58 @@
+.parent {
+  background-color: rgb(88, 104, 118);
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  align-items: center;
+  justify-self: center;
+}
+.top {
+  background-color: black;
+  height: 50vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.bottom {
+  z-index: 1;
+  background-color: white;
+  height: 50vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.mid{
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  bottom: 100%;
+}
+.parent .top{
+  animation: sup 1s linear forwards;
+}
+.parent .bottom{
+  animation: sdown 1s linear forwards;
+}
+@keyframes show{
+  100%{
+    padding: auto 0;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@keyframes sup {
+  100%{
+    height: 0;
+  }
+}
+@keyframes sdown {
+  100%{
+    height: 0;
+  }
+}
