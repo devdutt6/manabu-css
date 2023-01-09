@@ -8,7 +8,7 @@
 
 .div1 {
   /* background-color: rebeccapurple; */
-  width: 100%;
+  width: 80%;
   height: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,15 +30,16 @@
 
 .description {
   display: inline-block;
-  width: 99%;
+  width: 90%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
-  border-radius: 1.7rem;
+  border-top-right-radius: 1.7rem;
+  border-bottom-right-radius: 1.7rem;
   z-index: -1;
-  transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-46%, 0, 0);
 }
 
 .div1:hover .spanblock{
@@ -46,6 +47,6 @@
   transition: all 2s;
 }
 .div1:hover .description{
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-6%, 0, 0);
   transition: all 2s;
 }
