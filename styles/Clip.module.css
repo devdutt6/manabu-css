@@ -9,6 +9,19 @@
   color: transparent;
   font-size: 200px;
   font-family: sans-serif;
+  animation: upd 700ms linear forwards;
+}
+
+@keyframes upd {
+  0%{
+    transform: translateY(-20%);
+  }
+  70%{
+    transform: translateY(10%);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .clipper:hover{
