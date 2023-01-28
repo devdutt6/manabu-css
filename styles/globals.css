@@ -48,12 +48,14 @@
 }
 
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: aliceblue;
 }
 ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
   background: royalblue;
 }
 ::-webkit-scrollbar-thumb:hover {

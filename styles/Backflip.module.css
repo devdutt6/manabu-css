@@ -1,0 +1,36 @@
+.parent{
+  height: 200vh;
+  width: 100vw;
+  background-image: url("https://media.tenor.com/26KgBqLSQUgAAAAC/stars-star-gazing.gif");
+  background-repeat: repeat;
+  background-attachment:fixed;
+  z-index: -1;
+  object-fit: contain;
+  display: flex;
+  background-clip: text;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 200px;
+}
+.parent2{
+  height: 200vh;
+  width: 100vw;
+  z-index: 1;
+  background-image: url("https://images.unsplash.com/photo-1661961110144-12ac85918e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: aliceblue;
+  object-fit: contain;
+  display: flex;
+  background-clip: text;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 200px;
+}
+
+.text{
+  font-size: 200px;
+  color: transparent;
+}
