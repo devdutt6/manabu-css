@@ -1,5 +1,5 @@
 .parent{
-  height: 100vh;
+  height: 250vh;
   background-color: bisque;
   width: 100vw;
   display: flex;
@@ -18,19 +18,19 @@
   background-color: blueviolet;
   transform: translateX(-100%);
   transition: all 1s linear;
-  transition-delay: 1s;
+  transition-delay: 100ms;
 }
 .element2{
   background-color: aqua;
   transform: translateX(-150%);
   transition: all 1s linear;
-  transition-delay: 2s;
+  transition-delay: 200ms;
 }
 .element3{
   background-color: brown;
   transform: translateX(-200%);
   transition: all 1s linear;
-  transition-delay: 3s;
+  transition-delay: 300ms;
 }
 
 .show{
