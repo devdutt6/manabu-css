@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "../styles/Paralax.module.css";
+import styles from "../../styles/Paralax.module.css";
 
 export default () => {
 

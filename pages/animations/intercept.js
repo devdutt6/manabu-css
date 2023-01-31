@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import styles from "../styles/Intercept.module.css";
+import styles from "../../styles/Intercept.module.css";
 
 export default () => {
   const parentRef = useRef();

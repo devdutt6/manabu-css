@@ -1,4 +1,4 @@
-import styles from  "../styles/Clip.module.css";
+import styles from  "../../styles/Clip.module.css";
 
 export default ( ) => {
   return (<>

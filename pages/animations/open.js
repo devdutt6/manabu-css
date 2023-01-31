@@ -1,4 +1,4 @@
-import styles from "../styles/Open.module.css";
+import styles from "../../styles/Open.module.css";
 
 export default () => {
   return (

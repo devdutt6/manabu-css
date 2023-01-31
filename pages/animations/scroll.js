@@ -1,4 +1,4 @@
-import styles from "../styles/Scroll.module.css";
+import styles from "../../styles/Scroll.module.css";
 
 export default ( ) => {
   return (<>

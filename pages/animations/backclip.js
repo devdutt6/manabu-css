@@ -1,4 +1,4 @@
-import styles from "../styles/Backflip.module.css";
+import styles from "../../styles/Backflip.module.css";
 
 export default () => {
   return (

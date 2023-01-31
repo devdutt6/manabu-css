@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "../styles/Circles.module.css";
+import styles from "../../styles/Circles.module.css";
 
 export default () => {
 

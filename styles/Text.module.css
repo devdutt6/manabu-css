@@ -1,0 +1,38 @@
+.body{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  position: absolute;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.sh{
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.p {
+  transition: all 200ms;
+}
+
+.p::selection{
+  color: black;
+  /* background-color: aqua; */
+}
+
+.p:hover{
+  color: white;
+  /* stroke-width: 1px; */
+  -webkit-text-stroke: #0f0c29 1px;
+}

@@ -1,4 +1,4 @@
-import styles from '../styles/Barn.module.css';
+import styles from "../../styles/Barn.module.css";
 
 export default ( ) => {
   return (<>

@@ -1,4 +1,4 @@
-import styles from "../styles/Circle.module.css";
+import styles from "../../styles/Circle.module.css";
 
 export default ( ) => {
   let init = 0;
