@@ -1,0 +1,9 @@
+.left {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.colored {
+  --color_grey: grey;
+}
